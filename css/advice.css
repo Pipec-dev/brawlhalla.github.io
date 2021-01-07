@@ -1,0 +1,139 @@
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/rubik/v11/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-WYi1UA.ttf) format('truetype');
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+.features a {
+    color: white;
+    font-weight: 600;
+}
+.features a:hover {
+  color: rgb(160, 160, 160);
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.15s;
+}
+.features {
+  width: 100%;
+  min-width: 200px;
+  padding: 10px;
+  text-align: center;
+  margin: 0;
+}
+.features .title {
+  font-weight: 600;
+  font-size: 2.1em;
+}
+.features h1 {
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+  font-size: 25px;
+  padding: 0;
+  margin-top: 5px;
+}
+.wrapper-1 {
+  display: inline-block;
+  min-width: 992px;
+  height: auto;
+  width: auto;
+  margin: 15px;
+  padding: 10px;
+  color: white;
+  transition: 0.5s;
+  transition-property: all;
+  border-radius: 3px;
+  background-color: #25252e;
+  padding-top: 10px;
+  box-shadow: 0 0 2px 2px #0f0f0f;
+  position: relative;
+}
+.middle-text {
+  width: 100%;
+  text-align: start;
+  padding: 20px;
+}
+ol {
+  list-style: none; 
+  counter-reset: li; 
+}
+.textTitle {
+  color: white;
+  font-size: 25px;
+  margin-top: 40px;
+}
+.wrapper-1 p {
+  padding: 15px;
+  font-size: 17px;
+  color: #fff;
+}
+@media screen and (max-width: 992px) {
+  .features .title {
+    font-weight: 600;
+    font-size: 1.8em;
+  }
+  .wrapper-1 {
+    display: inline-block;
+    min-width: 300px;
+    height: auto;
+    width: auto;
+    margin: 15px;
+    padding: 10px;
+    transition: 0.5s;
+    transition-property: all;
+    border-radius: 3px;
+    background-color: #25252e;
+    padding-top: 10px;
+    box-shadow: 0 0 2px 2px #0f0f0f;
+    position: relative;
+  }
+  .wrapper-1 p {
+    padding: 15px;
+    font-size: 14px;
+    color: #fff;
+  }
+  .textTitle {
+    font-size: 22px;
+  }
+  .middle-text {
+    width: 100%;
+    text-align: start;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 300px) {
+  .features .title {
+    font-weight: 600;
+    font-size: 1.2em;
+  }
+  .textTitle {
+    font-size: 19px;
+  }
+  .wrapper-1 {
+    display: inline-block;
+    min-width: 200px;
+    height: auto;
+    width: auto;
+    margin: 15px;
+    padding: 10px;
+    transition: 0.5s;
+    transition-property: all;
+    border-radius: 3px;
+    background-color: #25252e;
+    padding-top: 10px;
+    box-shadow: 0 0 2px 2px #0f0f0f;
+    position: relative;
+  }
+  .wrapper-1 p {
+    padding: 15px;
+    font-size: 13px;
+    color: #fff;
+  }
+}

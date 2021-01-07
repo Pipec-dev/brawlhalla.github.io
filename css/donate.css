@@ -1,0 +1,283 @@
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/rubik/v11/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-WYi1UA.ttf) format('truetype');
+}
+
+h2 {
+  text-align: center;
+  color: white;
+}
+.start a {
+  color: white;
+  font-weight: 600;
+}
+.start a:hover {
+  color: rgb(160, 160, 160);
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.15s;
+}
+.start {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  margin: 0;
+}
+.start .title {
+  font-weight: 600;
+  font-size: 1.9em;
+}
+.start h1 {
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+  font-size: 25px;
+  padding: 0;
+  margin-top: 5px;
+}
+.startdesc {
+  display: inline-block;
+  min-width: 992px;
+  height: auto;
+  width: auto;
+  margin: 15px;
+  padding: 10px;
+  color: white;
+  transition: 0.5s;
+  transition-property: all;
+  border-radius: 3px;
+  background-color: #25252e;
+  box-shadow: 0 0 2px 2px #0f0f0f;
+  position: relative;
+}
+.Types {
+  display: inline-block;
+  align-items: center;
+  min-width: 320px;
+  height: 320px;
+  width: 320px;
+  margin: 15px;
+  transition: 0.5s;
+  position: relative;
+  transition-property: all;
+  border-radius: 5px;
+  background-color: #25252e;
+  padding-top: 15px;
+  box-shadow: 0 0 2px 2px #0f0f0f;
+}
+.bestButtons {
+  margin-bottom: 20px;
+}
+.why {
+  display: inline-block;
+  align-items: center;
+  min-width: 320px;
+  height: auto;
+  width: 670px;
+  margin: 10px;
+  position: relative;
+  transition-property: all;
+  border-radius: 5px;
+  background-color: #25252e;
+  padding-top: 15px;
+  box-shadow: 0 0 2px 2px #0f0f0f;
+}
+
+.why1 {
+  display: inline-block;
+  align-items: center;
+  min-width: 320px;
+  height: auto;
+  width: 670px;
+  margin: 10px;
+  position: relative;
+  transition-property: all;
+  border-radius: 5px;
+  background-color: #25252e;
+  padding-top: 15px;
+  box-shadow: 0 0 2px 2px #0f0f0f;
+}
+.Description {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+.TypeDescription {
+  position: absolute;
+  top: 53%;
+  left: 53%;
+  transform: translate(-53%, -53%);
+  z-index: 10;
+  width: 100%;
+}
+.Description p {
+  padding: 20px;
+  text-align: start;
+  font-size: 17px;
+  color: #fff;
+}
+.TypeDescription h1 {
+  font-size: 26px;
+  margin-top: 25px;
+}
+.TypeDescription p {
+  padding: 15px;
+  text-align: center;
+  font-size: 17px;
+  color: #fff;
+}
+.why p {
+  padding: 20px;
+  text-align: start;
+  font-size: 16px;
+  color: #fff;
+}
+
+.why1 p {
+    padding: 20px;
+    text-align: start;
+    font-size: 16px;
+    color: #fff;
+}
+
+@media screen and (max-width: 992px) {
+    .startdesc {
+        height: auto;
+        min-width: 330px;
+    }
+    .why {
+        width: 230px;
+        height: 400px;
+    }
+    
+    .why1 {
+        width: 230px;
+        height: 500px;
+    }
+  .primeSubs .title {
+    font-weight: 600;
+    font-size: 1.6em;
+  }
+  .primeSubs h1 {
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    padding: 0;
+    margin-top: 10px;
+  }
+  .PrimeDescription {
+    display: inline-block;
+    min-width: 300px;
+    height: auto;
+    width: auto;
+    margin: 15px;
+    padding: 10px;
+    color: white;
+    transition: 0.5s;
+    transition-property: all;
+    border-radius: 3px;
+    background-color: #25252e;
+    box-shadow: 0 0 2px 2px #0f0f0f;
+    position: relative;
+  }
+  .Description p {
+    padding: 10px;
+    text-align: start;
+    font-size: 15px;
+    color: #fff;
+  }
+  .Payments {
+    display: inline-block;
+    align-items: center;
+    min-width: 300px;
+    height: auto;
+    width: auto;
+    margin: 10px;
+    position: relative;
+    transition-property: all;
+    border-radius: 5px;
+    background-color: #25252e;
+    padding-top: 15px;
+    box-shadow: 0 0 2px 2px #0f0f0f;
+  }
+  .Payment p {
+    padding: 15px;
+    text-align: start;
+    font-size: 15px;
+    color: #fff;
+  }
+}
+@media screen and (max-width: 300px) {
+  .primeSubs .title {
+    font-weight: 600;
+    font-size: 1.4em;
+  }
+  .primeSubs h1 {
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+    padding: 0;
+    margin-top: 10px;
+  }
+  .PrimeDescription {
+    display: inline-block;
+    height: auto;
+    min-width: 200px;
+    width: auto;
+    margin: 15px;
+    padding: 10px;
+    color: white;
+    transition: 0.5s;
+    transition-property: all;
+    border-radius: 3px;
+    background-color: #25252e;
+    box-shadow: 0 0 2px 2px #0f0f0f;
+    position: relative;
+  }
+  .Description p {
+    padding: 10px;
+    text-align: start;
+    font-size: 13px;
+    color: #fff;
+  }
+  .Types {
+    display: inline-block;
+    align-items: center;
+    min-width: 220px;
+    height: 150px;
+    width: auto;
+    margin: 15px;
+    transition: 0.5s;
+    position: relative;
+    transition-property: all;
+    border-radius: 5px;
+    background-color: #25252e;
+    padding-top: 15px;
+    box-shadow: 0 0 2px 2px #0f0f0f;
+  }
+  .Payments {
+    display: inline-block;
+    align-items: center;
+    height: auto;
+    min-width: 200px;
+    width: auto;
+    margin: 8px;
+    position: relative;
+    transition-property: all;
+    border-radius: 5px;
+    background-color: #25252e;
+    padding-top: 15px;
+    box-shadow: 0 0 2px 2px #0f0f0f;
+  }
+  .Payment p {
+    padding: 13px;
+    text-align: start;
+    font-size: 13px;
+    color: #fff;
+  }
+}
